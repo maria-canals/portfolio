@@ -5,10 +5,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
 	return (
-		<nav className='navbar navbar-expand-lg navbar-light bg-dark'>
+		<nav className='navbar sticky-top navbar-expand-lg navbar-light bg-dark'>
 			<div className='container-fluid'>
-				<a className='navbar-brand' href='#'>
-					<img className='logo' src={Logo} art='logo' />
+				<a className='navbar-brand' href='#header'>
+					<img className='logo' src={Logo} alt='logo' />
 				</a>
 				<button
 					className='navbar-toggler'
@@ -23,22 +23,17 @@ const Navbar = () => {
 				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
 					<ul className='navbar-nav ms-auto mb-2 mb-g-0'>
 						<li className='nav-item'>
-							<a className='nav-link active' aria-current='page' href='#'>
+							<a className='nav-link' aria-current='page' href='#header'>
 								Home
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link active' aria-current='page' href='#'>
-								About me
+							<a className='nav-link' aria-current='page' href='#portfolio'>
+								Portfolio
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link active' aria-current='page' href='#'>
-								Projects
-							</a>
-						</li>
-						<li className='nav-item'>
-							<a className='nav-link' href='#'>
+							<a className='nav-link' href='#contact'>
 								Contact
 							</a>
 						</li>
