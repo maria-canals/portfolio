@@ -38,7 +38,7 @@ export const JavascriptPortfolio = [
 		title: 'Country Rest Api',
 		gitHub_link: 'https://github.com/maria-canals/countries-rest-api.git',
 		demo_link: 'https://countryrest-api-mariacanals.netlify.app/',
-		description: `This application has the purpose of showing all the countries of the world.Built with HTML, CSS, BOOTSTRAP 5 and JAVASCRIPT. It consumes an external API. Some of its main features are:
+		description: `This app has the purpose of showing all the countries of the world.Built with HTML, CSS, BOOTSTRAP 5 and JAVASCRIPT. It consumes an external API. Some of its main features are:
 			-You can change the theme to dark, 
 			-You can search the country by its name, You can filter them by their region, It has a responsive design, mobile first design. When clicking on the letter of the country, a modal opens which shows more information about the country.`,
 		img: countryRest,
