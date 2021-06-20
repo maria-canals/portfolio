@@ -14,11 +14,14 @@ export default function Contact() {
 					<img src={contact} alt='contact' />
 				</div>
 				<div className='contact-right'>
-					<h2>Contact</h2>
+					<h1 className='contact_title mt-2'>Get In Touch</h1>
+					<h6 className='contact_subtitle my-4'>Nice to meet you!</h6>
 					<form onSubmit={handleSubmit}>
 						<input type='text' placeholder='Email' />
 						<textarea placeholder='Message'></textarea>
-						<button type='submit'>Send</button>
+						<button className='contact-button' type='submit'>
+							Send
+						</button>
 						{message && (
 							<span>Thank you, your message has been sent correctly. </span>
 						)}

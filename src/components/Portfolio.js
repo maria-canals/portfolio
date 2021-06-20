@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import PortfolioList from './PortfolioList';
-import { VuePortfolio, JavascriptPortfolio } from '../data';
+import { VuePortfolio, JavascriptPortfolio, BackEnd } from '../data';
 const Portfolio = () => {
 	const [selected, setSelected] = useState('featured');
 	const [data, setData] = useState([]);
 	const list = [
 		// { id: 'React', title: 'React' },
 		{ id: 'Vue', title: 'Vue' },
+		{ id: 'Backend', title: 'Backend' },
 		{ id: 'Javascript', title: 'Javascript' },
 	];
 
@@ -15,6 +16,9 @@ const Portfolio = () => {
 			// case 'React':
 			// 	setData(ReactPortfolio);
 			// 	break;
+			case 'Backend':
+				setData(BackEnd);
+				break;
 			case 'Vue':
 				setData(VuePortfolio);
 				break;
@@ -27,8 +31,11 @@ const Portfolio = () => {
 	}, [selected]);
 	return (
 		<div className='portfolio' id='portfolio'>
-			<h1>Portfolio</h1>
-			<ul>
+			<h1 className='portfolio_title'>Recent Works</h1>
+			<h5 className='portfolio_subtitle my-3'>
+				Portfolio showcase of some of my work.
+			</h5>
+			<ul className='m-4'>
 				{list.map(item => (
 					<PortfolioList
 						key={item.id}
@@ -50,6 +57,9 @@ const Portfolio = () => {
 						<div className='item-description'>
 							<h3 className='item-desscription-title'>{d.title}</h3>
 							<p className='item-description-text'>{d.description}</p>
+							<p>{d.description_list}</p>
+							<p>{d.techstack}</p>
+							<p>{d.skills}</p>
 							<div className='item-links'>
 								<a
 									className='item-description-link'

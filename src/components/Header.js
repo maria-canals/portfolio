@@ -12,10 +12,10 @@ const Header = () => {
 			</div>
 			<div className='right'>
 				<div className='main-info'>
-					<h1>Hi There, I'm Maria</h1>
+					<h1>Maria Canals</h1>
 					<Typed
 						className='typed-text'
-						strings={['A Front End Developer']}
+						strings={['Front End Developer']}
 						typeSpeed={50}
 						backSpeed={60}
 						loop
@@ -41,9 +41,29 @@ const Header = () => {
 							},
 						}}
 					/>
-					<a href='#contact' className='btn-contact'>
-						Contact me
-					</a>
+					{/* <ul className='social-media-links'>
+						<li
+							href='https://github.com/maria-canals'
+							target='_blank'
+							rel='noreferrer'
+							className='social_item'>
+							<i className='fab fa-github'></i>
+						</li>
+						<li
+							href='https://www.linkedin.com/in/maria-canals-miranda/'
+							target='_blank'
+							rel='noreferrer'
+							className='social_item'>
+							<i className='fab fa-linkedin-in'></i>
+						</li>
+						<li
+							href='mailto:mariacanals23@gmail.com'
+							target='_blank'
+							rel='noreferrer'
+							className='social_item'>
+							<i className='fas fa-envelope-square'></i>
+						</li>
+					</ul> */}
 				</div>
 			</div>
 		</div>
