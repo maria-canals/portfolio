@@ -23,7 +23,7 @@ export const VuePortfolio = [
 		description:
 			'Tender App is a hybrid app built with Ionic and Vue 3. Its objective is to facilitate the adoption of animals. It was the final project of the front end module of the bootcamp. I took part in several components, including the registration form, the view of your animals and the view of filtering animals. We used Firestore for the backend.',
 		img: tenderApp,
-		techstack: '#Vue3, #Ionic #Capacitator #Firestore',
+		techstack: '#Vue3, #VueRouter #Vuex #Ionic #Capacitator #Firestore',
 		skills: '#PairProgramming #GitWorkflow #workInTeam',
 	},
 	{
