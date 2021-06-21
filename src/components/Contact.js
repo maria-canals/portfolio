@@ -15,7 +15,7 @@ export default function Contact() {
 				</div>
 				<div className='contact-right'>
 					<h1 className='contact_title mt-2'>Get In Touch</h1>
-					<h6 className='contact_subtitle my-4'>Nice to meet you!</h6>
+					<h5 className='contact_subtitle my-4'>Nice to meet you!</h5>
 					<form onSubmit={handleSubmit}>
 						<input type='text' placeholder='Email' />
 						<textarea placeholder='Message'></textarea>
