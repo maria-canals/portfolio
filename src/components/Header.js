@@ -58,7 +58,7 @@ const Header = () => {
 
 						<li className='social_item'>
 							<a href='mailto:mariacanals23@gmail.com'>
-								<i className='fas fa-envelope-square'></i>
+								<i className="far fa-envelope-open"></i>
 							</a>
 						</li>
 					</ul>

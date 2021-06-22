@@ -89,21 +89,22 @@ h1 {
 	justify-content: center;
 }
 
-a,
-a:visited {
-	color: black !important;
-}
-a:active,
-a:hover {
+a{
+	color: black;
 	text-decoration: none;
-	color: rgb(22, 189, 218);
 }
+a:visited {
+	color: black;
+}
+
 
 ul,
 ol {
 	list-style: none;
 	padding: 0px;
 }
+
+
 
 .social-media-links {
 	display: flex;
@@ -119,10 +120,21 @@ ol {
 
 .fab,
 .fas,
-.fas {
+.far {
 	font-size: 30px;
 	margin: 25px 20px;
+	color: black;
 }
+
+.fab:hover{
+	color: rgb(2, 121, 190);
+}
+
+.far:hover{
+	color: rgb(2, 121, 190);
+}
+
+
 
 .imgContainer {
 	border-radius: 50%;

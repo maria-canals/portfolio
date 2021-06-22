@@ -13,8 +13,8 @@ export const ReactPortfolio = [
 		img: heroeApp,
 		demo_link: 'https://heroesapp-mariacanals.herokuapp.com/login',
 		gitHub_link: 'https://github.com/maria-canals/heroes-app',
-		description: 'Log in and find your favorite hero. Build with React Hooks and React Router, testes with Jest.',
-		techstack: '#React, #React Hooks #Jest #AnimationCSS #React Router',
+		description: 'Log in and find your favorite hero. Build with React Hooks and React Router, tested with Jest.',
+		techstack: '#React #React Hooks #Jest #AnimationCSS #React Router',
 	},
 	
 ];
@@ -52,7 +52,7 @@ export const NodejsExpress = [
 		demo_link:
 			'https://mariacanals23-gmail.tinytake.com/tt/NTUwMjIzMV8xNzE2OTYxMg',
 		description:
-			'Music Map is the app I participated in the backend module in the bootcamp. Its main objective is to showcase the top 10 of the country that you clicked. It gets the data from the Spotify APi. The global top ten is also shown. I took part in the view which the map is imported, we use leaflet.',
+			'Music Map is the backend project for the bootcamp. Its main objective is to showcase the top 10 of the country that you clicked. It gets the data from the Spotify APi. The global top ten is also shown. I took part in the map view. We use leaflet to import it.',
 		techstack: '#Nodejs #Express #MVC #MongoDB #Passport #Ejs #MongoDB #MySql',
 		skills: '#PairProgramming #GitWorkflow #workInTeam',
 		img: musicMap,
@@ -69,9 +69,9 @@ export const JavascriptPortfolio = [
 			'This app has the purpose of showing all the countries of the world. Built with HTML, CSS, BOOTSTRAP 5 and JAVASCRIPT. It consumes an external API. Some of its main features are:',
 		description_list: [
 			'You can change the theme to dark. ',
-			'You can search the country by its name, You can filter them by their region. ',
+			'You can search the country by its name. You can filter them by their region. ',
 			'It has a responsive design, mobile first design. ',
-			'When clicking on the letter of the country, a modal opens which shows more information about the country. ',
+			'When clicking on a card, a modal opens showing more information about the country. ',
 		],
 		techstack: '#HTML #CSSS #JAVSCRIPT',
 		img: countryRest,
