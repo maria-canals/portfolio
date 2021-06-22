@@ -13,7 +13,10 @@ export const ReactPortfolio = [
 		img: heroeApp,
 		demo_link: 'https://heroesapp-mariacanals.herokuapp.com/login',
 		gitHub_link: 'https://github.com/maria-canals/heroes-app',
+		description: 'Log in and find your favorite hero. Build with React Hooks and React Router, testes with Jest.',
+		techstack: '#React, #React Hooks #Jest #AnimationCSS #React Router',
 	},
+	
 ];
 
 export const VuePortfolio = [
