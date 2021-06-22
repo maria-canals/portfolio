@@ -1,23 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import PortfolioList from './PortfolioList';
-import { VuePortfolio, JavascriptPortfolio, BackEnd } from '../data';
+import {
+	VuePortfolio,
+	JavascriptPortfolio,
+	NodejsExpress,
+	ReactPortfolio,
+} from '../data';
 const Portfolio = () => {
 	const [selected, setSelected] = useState('featured');
 	const [data, setData] = useState([]);
 	const list = [
-		// { id: 'React', title: 'React' },
+		{ id: 'React', title: 'React' },
 		{ id: 'Vue', title: 'Vue' },
-		{ id: 'Backend', title: 'Backend' },
+		{ id: 'Nodejs/Express', title: 'Nodejs/Express' },
 		{ id: 'Javascript', title: 'Javascript' },
 	];
 
 	useEffect(() => {
 		switch (selected) {
-			// case 'React':
-			// 	setData(ReactPortfolio);
-			// 	break;
-			case 'Backend':
-				setData(BackEnd);
+			case 'React':
+				setData(ReactPortfolio);
+				break;
+			case 'Nodejs/Express':
+				setData(NodejsExpress);
 				break;
 			case 'Vue':
 				setData(VuePortfolio);

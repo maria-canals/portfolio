@@ -3,6 +3,7 @@ import contact from '../contact.jpg';
 
 export default function Contact() {
 	const [message, setMessage] = useState(false);
+
 	const handleSubmit = e => {
 		e.preventDefault();
 		setMessage(true);

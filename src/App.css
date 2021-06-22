@@ -90,19 +90,26 @@ h1 {
 }
 
 a,
+a:visited {
+	color: black !important;
+}
 a:active,
 a:hover {
 	text-decoration: none;
+	color: rgb(22, 189, 218);
 }
 
-ul {
+ul,
+ol {
 	list-style: none;
-	padding: 0;
+	padding: 0px;
 }
 
 .social-media-links {
 	display: flex;
 	justify-content: space-between;
+	padding: 0px;
+	margin-top: 10px;
 }
 
 .social_item {
@@ -159,25 +166,6 @@ ul {
 	color: var(--primary-blue);
 	font-size: 2rem;
 }
-
-.btn-contact {
-	border: 3px solid var(--primary-dark);
-	text-transform: uppercase;
-	padding: 0.625rem 0.74rem 0.74rem 0.74rem;
-	color: var(--primary-dark);
-	margin: 2rem;
-	text-decoration: none;
-	cursor: pointer;
-	font-weight: 700;
-	z-index: 2;
-}
-
-/* .btn-contact:hover {
-	color: var(--primary-white);
-	background-color: var(--primary-blue);
-	transition: 0.2s ease-out;
-	cursor: pointer;
-} */
 
 .tsparticles-canvas-el {
 	z-index: 1;

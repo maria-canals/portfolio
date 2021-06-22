@@ -41,29 +41,27 @@ const Header = () => {
 							},
 						}}
 					/>
-					{/* <ul className='social-media-links'>
-						<li
-							href='https://github.com/maria-canals'
-							target='_blank'
-							rel='noreferrer'
-							className='social_item'>
-							<i className='fab fa-github'></i>
+
+					<ul className='social-media-links'>
+						<li className='social_item'>
+							<a href='https://github.com/maria-canals' target='_blank'>
+								<i className='fab fa-github'></i>
+							</a>
 						</li>
-						<li
-							href='https://www.linkedin.com/in/maria-canals-miranda/'
-							target='_blank'
-							rel='noreferrer'
-							className='social_item'>
-							<i className='fab fa-linkedin-in'></i>
+						<li className='social_item'>
+							<a
+								href='https://www.linkedin.com/in/maria-canals-miranda'
+								target='_blank'>
+								<i className='fab fa-linkedin-in'></i>
+							</a>
 						</li>
-						<li
-							href='mailto:mariacanals23@gmail.com'
-							target='_blank'
-							rel='noreferrer'
-							className='social_item'>
-							<i className='fas fa-envelope-square'></i>
+
+						<li className='social_item'>
+							<a href='mailto:mariacanals23@gmail.com'>
+								<i className='fas fa-envelope-square'></i>
+							</a>
 						</li>
-					</ul> */}
+					</ul>
 				</div>
 			</div>
 		</div>

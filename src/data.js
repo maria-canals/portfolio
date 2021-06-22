@@ -1,17 +1,20 @@
 import chatAppVue from '../src/chatapp-vue.PNG';
 import tenderApp from '../src/tenderapp.PNG';
 import countryRest from '../src/countryREST.png';
-import hangman from '../src/hangman.PNG';
+// import hangman from '../src/hangman.PNG';
 import paperRockScissors from '../src/paper-rock-scissors.PNG';
 import musicMap from '../src/musicmap.PNG';
+import heroeApp from '../src/heroapp.PNG';
 
-// export const ReactPortfolio = [
-// 	{
-// 		id: 2,
-// 		title: 'React',
-// 		img: '',
-// 	},
-// ];
+export const ReactPortfolio = [
+	{
+		id: 2,
+		title: 'Heroes App',
+		img: heroeApp,
+		demo_link: 'https://heroesapp-mariacanals.herokuapp.com/login',
+		gitHub_link: 'https://github.com/maria-canals/heroes-app',
+	},
+];
 
 export const VuePortfolio = [
 	{
@@ -21,7 +24,7 @@ export const VuePortfolio = [
 		demo_link:
 			'https://mariacanals23-gmail.tinytake.com/tt/NTE5NTg1NF8xNjI2MTM3Mg',
 		description:
-			'Tender App is a hybrid app built with Ionic and Vue 3. Its objective is to facilitate the adoption of animals. It was the final project of the front end module of the bootcamp. I took part in several components, including the registration form, the view of your animals and the view of filtering animals. We used Firestore for the backend.',
+			'Tender App is a hybrid app built with Ionic and Vue 3. Its objective is to facilitate the adoption of animals. It was the final project of the front end module of the bootcamp. I took part in the development of several components, including the registration form, the view of your animals and the view of filtering animals. We used Firestore for the backend.',
 		img: tenderApp,
 		techstack: '#Vue3, #VueRouter #Vuex #Ionic #Capacitator #Firestore',
 		skills: '#PairProgramming #GitWorkflow #workInTeam',
@@ -32,13 +35,13 @@ export const VuePortfolio = [
 		gitHub_link: 'https://github.com/maria-canals/chatapp.git',
 		demo_link: 'https://chatappvue-mariacanals.netlify.app/',
 		description:
-			"Chat App is an app that I created from scratch for a technical interview. Represents a conversation between a teacher and a student. The biggest challenge was knowing how to conditionally render ether the teacher's message, the file uploaded by the student, or the student's message.",
-		skills: '#Vue #SelfLearning',
+			"Chat App is an app that I created from scratch for a technical interview. Represents a conversation between a teacher and a student. The biggest challenge was knowing how to conditionally render either the teacher's message, the file uploaded by the student, or the student's message.",
+		skills: '#Vue3 #SelfLearning',
 		img: chatAppVue,
 	},
 ];
 
-export const BackEnd = [
+export const NodejsExpress = [
 	{
 		id: '1',
 		title: 'Music Map',
@@ -81,14 +84,5 @@ export const JavascriptPortfolio = [
 
 		img: paperRockScissors,
 	},
-	{
-		id: '3',
-		title: 'Hangman',
-		gitHub_link: 'https://github.com/maria-canals/hangman.git',
-		demo_link: 'https://hangman-mariacanals.netlify.app/',
-		description:
-			'Music Map is the app I participated in the backend module in the bootcamp. Its main purpose is that when you click on a country on the map, you get the top 10 of the country from the Spotify APi. The global top ten is also shown. I took part in the view which the map is imported, we use leaflet.',
-		techstack: '#HTML #CSSS #JAVSCRIPT',
-		img: hangman,
-	},
+	
 ];
