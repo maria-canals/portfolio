@@ -59,28 +59,28 @@ const Portfolio = () => {
 						<div className='item-img'>
 							<img src={d.img} alt={d.title} />
 						</div>
+						<div className='item-links'>
+							<a
+								className='item-description-link'
+								target='_blank'
+								rel='noopener noreferrer'
+								href={d.demo_link}>
+								See demo
+							</a>
+							<a
+								className='item-description-link'
+								target='_blank'
+								rel='noopener noreferrer'
+								href={d.gitHub_link}>
+								Github
+							</a>
+						</div>
 						<div className='item-description'>
 							<h3 className='item-desscription-title'>{d.title}</h3>
 							<p className='item-description-text'>{d.description}</p>
 							<p>{d.description_list}</p>
 							<p>{d.techstack}</p>
 							<p>{d.skills}</p>
-							<div className='item-links'>
-								<a
-									className='item-description-link'
-									target='_blank'
-									rel='noopener noreferrer'
-									href={d.demo_link}>
-									See demo
-								</a>
-								<a
-									className='item-description-link'
-									target='_blank'
-									rel='noopener noreferrer'
-									href={d.gitHub_link}>
-									Github
-								</a>
-							</div>
 						</div>
 					</div>
 				))}
