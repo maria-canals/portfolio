@@ -252,7 +252,7 @@ ol {
 }
 
 .item-description {
-	height: 350px;
+	height: auto;
 	max-width: 50%;
 	overflow: auto;
 	margin-right: 1rem;
@@ -260,9 +260,9 @@ ol {
 }
 
 .item-links {
-	margin-top: 2rem;
+	margin-top: 1rem;
+	width: 250px;
 }
-
 .item-links > a {
 	text-decoration: none;
 }
@@ -273,7 +273,6 @@ ol {
 
 .item-description-text {
 	margin-top: 1rem;
-	height: auto;
 }
 
 .item-description-link {

@@ -40,7 +40,7 @@ const Portfolio = () => {
 			<h5 className='portfolio_subtitle my-3'>
 				Portfolio showcase of some of my work.
 			</h5>
-			<ul className='m-4'>
+			<ul className='d-flex align-center my-3'>
 				{list.map(item => (
 					<PortfolioList
 						key={item.id}
@@ -59,6 +59,13 @@ const Portfolio = () => {
 						<div className='item-img'>
 							<img src={d.img} alt={d.title} />
 						</div>
+						<div className='item-description'>
+							<h3 className='item-desscription-title'>{d.title}</h3>
+							<p className='item-description-text'>{d.description}</p>
+							<p>{d.description_list}</p>
+							<p>{d.techstack}</p>
+							<p>{d.skills}</p>
+						</div>
 						<div className='item-links'>
 							<a
 								className='item-description-link'
@@ -74,13 +81,6 @@ const Portfolio = () => {
 								href={d.gitHub_link}>
 								Github
 							</a>
-						</div>
-						<div className='item-description'>
-							<h3 className='item-desscription-title'>{d.title}</h3>
-							<p className='item-description-text'>{d.description}</p>
-							<p>{d.description_list}</p>
-							<p>{d.techstack}</p>
-							<p>{d.skills}</p>
 						</div>
 					</div>
 				))}
