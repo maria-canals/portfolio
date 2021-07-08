@@ -1,10 +1,10 @@
-import chatAppVue from '../src/chatapp-vue.PNG';
-import tenderApp from '../src/tenderapp.PNG';
-import countryRest from '../src/countryREST.png';
-// import hangman from '../src/hangman.PNG';
-import paperRockScissors from '../src/paper-rock-scissors.PNG';
-import musicMap from '../src/musicmap.PNG';
-import heroeApp from '../src/heroapp.PNG';
+import chatAppVue from '../src/assets/chatapp-vue.PNG';
+import tenderApp from '../src/assets/tenderapp.PNG';
+import countryRest from '../src/assets/countryREST.png';
+// import hangman from '../src/assets/hangman.PNG';
+import paperRockScissors from '../src/assets/paper-rock-scissors.PNG';
+import musicMap from '../src/assets/musicmap.PNG';
+import heroeApp from '../src/assets/heroapp.PNG';
 
 export const ReactPortfolio = [
 	{
@@ -13,10 +13,10 @@ export const ReactPortfolio = [
 		img: heroeApp,
 		demo_link: 'https://heroesapp-mariacanals.herokuapp.com/login',
 		gitHub_link: 'https://github.com/maria-canals/heroes-app',
-		description: 'Log in and find your favorite hero. Build with React Hooks and React Router, tested with Jest.',
+		description:
+			'Log in and find your favorite hero. Build with React Hooks and React Router, tested with Jest.',
 		techstack: '#React #React Hooks #Jest #AnimationCSS #React Router',
 	},
-	
 ];
 
 export const VuePortfolio = [
@@ -87,5 +87,4 @@ export const JavascriptPortfolio = [
 
 		img: paperRockScissors,
 	},
-	
 ];

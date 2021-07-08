@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import Particles from 'react-particles-js';
-import ProfileImage from '../../src/headerimg.JPG';
+import ProfileImage from '../../src/assets/headerimg.JPG';
 const Header = () => {
 	return (
 		<div className='header-wraper' id='header'>
