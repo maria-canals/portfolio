@@ -70,14 +70,14 @@ const Portfolio = () => {
 							<a
 								className='item-description-link'
 								target='_blank'
-								rel='noopener noreferrer'
+								rel='noreferrer'
 								href={d.demo_link}>
 								See demo
 							</a>
 							<a
 								className='item-description-link'
 								target='_blank'
-								rel='noopener noreferrer'
+								rel='noreferrer'
 								href={d.gitHub_link}>
 								Github
 							</a>

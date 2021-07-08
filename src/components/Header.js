@@ -44,21 +44,25 @@ const Header = () => {
 
 					<ul className='social-media-links'>
 						<li className='social_item'>
-							<a href='https://github.com/maria-canals' target='_blank'>
+							<a
+								href='https://github.com/maria-canals'
+								target='_blank'
+								rel='noreferrer'>
 								<i className='fab fa-github'></i>
 							</a>
 						</li>
 						<li className='social_item'>
 							<a
 								href='https://www.linkedin.com/in/maria-canals-miranda'
-								target='_blank'>
+								target='_blank'
+								rel='noreferrer'>
 								<i className='fab fa-linkedin-in'></i>
 							</a>
 						</li>
 
 						<li className='social_item'>
 							<a href='mailto:mariacanals23@gmail.com'>
-								<i className="far fa-envelope-open"></i>
+								<i className='far fa-envelope-open'></i>
 							</a>
 						</li>
 					</ul>
