@@ -13,7 +13,7 @@ export const ReactPortfolio = [
 		title: 'Mern calendar',
 		img: calendar,
 		demo_link: 'https://mern-calendar-maria.herokuapp.com/',
-		githug_link: '',
+		githug_link: 'https://github.com/maria-canals/React-from-0-to-expert/tree/main/09-calendar',
 		description: [
 			'Create your account or log in to add a note for your next event. A project built with react, with data persistence thanks to MongoDB.',
 			"The use of Redux facilitates the handling of the states among all the components. JWT keeps the user's session and the last view.",
