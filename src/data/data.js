@@ -55,7 +55,7 @@ export const VuePortfolio = [
 		gitHub_link: 'https://github.com/maria-canals/chatapp.git',
 		demo_link: 'https://chatappvue-mariacanals.netlify.app/',
 		description: [
-			'Chat App is an app that I created from scratch for a technical interview. Represents a conversation between a teacher and a student.',
+			'Chat App is a component that I created from scratch for a technical interview. Represents a conversation between a teacher and a student.',
 			"The biggest challenge was knowing how to conditionally render either the teacher's message, the file uploaded by the student, or the student's message.",
 		],
 		img: chatAppVue,
