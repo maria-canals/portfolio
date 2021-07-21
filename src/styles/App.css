@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-	height: auto;
+	height: 70px;
 	padding: 0px !important;
 }
 
@@ -28,8 +28,13 @@ nav a.nav-link {
 	font-size: 0.9rem;
 }
 
+nav ul {
+	margin: 0px;
+}
+
 nav ul li {
 	text-transform: uppercase;
+	margin: 0px;
 }
 
 h1 {
@@ -40,6 +45,7 @@ h1 {
 	color: var(--primary-white) !important;
 	margin-right: 0.75rem;
 	margin-left: 0.75rem;
+	margin-top: 10px;
 	border-bottom: 0.18rem solid var(--primary-dark);
 }
 
@@ -107,7 +113,7 @@ ol {
 	display: flex;
 	justify-content: space-between;
 	padding: 0px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .social_item {
@@ -118,9 +124,9 @@ ol {
 .fab,
 .fas,
 .far {
-	font-size: 30px;
+	font-size: 20px;
 	margin: 25px 20px;
-	color: black;
+	color: white;
 }
 
 .fab:hover {
@@ -259,6 +265,10 @@ ol {
 	padding: 1rem;
 }
 
+.item-description-title {
+	margin-bottom: 15px;
+}
+
 .item-links {
 	margin-top: 1rem;
 	width: 250px;
@@ -280,6 +290,11 @@ ol {
 	font-weight: 500;
 	color: var(--primary-blue);
 	padding: 8px;
+	border: 1px solid var(--primary-blue);
+}
+
+.item-description-link:visited {
+	color: var(--primary-blue);
 }
 
 .item-description-link:hover {
@@ -288,12 +303,12 @@ ol {
 	padding: 8px;
 }
 
-.item-desscription-title {
+.item-description-title {
 	margin-top: 1.5rem;
 	color: var(--primary-blue);
 }
 
-.item-desscription-text {
+.item-description-text {
 	margin-top: 1.5rem;
 }
 
@@ -475,7 +490,7 @@ textarea:focus {
 		text-align: justify;
 	}
 
-	.item-desscription-title {
+	.item-description-title {
 		text-align: center;
 	}
 

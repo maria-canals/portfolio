@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../src/assets/LogoMC.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,9 +6,30 @@ const Navbar = () => {
 	return (
 		<nav className='navbar sticky-top navbar-expand-lg navbar-light bg-dark'>
 			<div className='container-fluid'>
-				<a className='navbar-brand' href='#header'>
-					<img className='logo' src={Logo} alt='logo' />
-				</a>
+				<ul className='social-media-links'>
+					<li className='social_item'>
+						<a
+							href='https://github.com/maria-canals'
+							target='_blank'
+							rel='noreferrer'>
+							<i className='fab fa-github'></i>
+						</a>
+					</li>
+					<li className='social_item'>
+						<a
+							href='https://www.linkedin.com/in/maria-canals-miranda'
+							target='_blank'
+							rel='noreferrer'>
+							<i className='fab fa-linkedin-in'></i>
+						</a>
+					</li>
+
+					<li className='social_item'>
+						<a href='mailto:mariacanals23@gmail.com'>
+							<i className='far fa-envelope-open'></i>
+						</a>
+					</li>
+				</ul>
 				<button
 					className='navbar-toggler'
 					type='button'

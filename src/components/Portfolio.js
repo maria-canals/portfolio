@@ -5,7 +5,7 @@ import {
 	JavascriptPortfolio,
 	NodejsExpress,
 	ReactPortfolio,
-} from '../data';
+} from '../data/data';
 const Portfolio = () => {
 	const [selected, setSelected] = useState('featured');
 	const [data, setData] = useState([]);
@@ -60,8 +60,10 @@ const Portfolio = () => {
 							<img src={d.img} alt={d.title} />
 						</div>
 						<div className='item-description'>
-							<h3 className='item-desscription-title'>{d.title}</h3>
-							<p className='item-description-text'>{d.description}</p>
+							<h3 className='item-description-title'>{d.title}</h3>
+							{d.description.map(p => (
+								<p>{p}</p>
+							))}
 							<p>{d.description_list}</p>
 							<p>{d.techstack}</p>
 							<p>{d.skills}</p>

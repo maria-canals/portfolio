@@ -1,4 +1,3 @@
-import React from 'react';
 import Typed from 'react-typed';
 import Particles from 'react-particles-js';
 import ProfileImage from '../../src/assets/headerimg.JPG';
@@ -15,7 +14,7 @@ const Header = () => {
 					<h1>Maria Canals</h1>
 					<Typed
 						className='typed-text'
-						strings={['Front End Developer']}
+						strings={['Front end developer']}
 						typeSpeed={50}
 						backSpeed={60}
 						loop
@@ -41,8 +40,7 @@ const Header = () => {
 							},
 						}}
 					/>
-
-					<ul className='social-media-links'>
+					{/* <ul className='social-media-links'>
 						<li className='social_item'>
 							<a
 								href='https://github.com/maria-canals'
@@ -65,7 +63,7 @@ const Header = () => {
 								<i className='far fa-envelope-open'></i>
 							</a>
 						</li>
-					</ul>
+					</ul> */}
 				</div>
 			</div>
 		</div>
