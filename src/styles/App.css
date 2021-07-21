@@ -225,6 +225,8 @@ ol {
 .portfolioList {
 	padding: 10px;
 	margin-right: 0px;
+	border-style: dotted;
+	border-color: rgb(225, 225, 238);
 }
 
 .active {
@@ -251,7 +253,6 @@ ol {
 	justify-content: center;
 	position: relative;
 	transition: all 0.5s ease;
-	cursor: pointer;
 	padding: 10px;
 	width: 800px;
 	height: auto;
