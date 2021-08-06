@@ -83,7 +83,7 @@ const Portfolio = () => {
 						<Swiper
 							className='mt-3 mb-5'
 							spaceBetween={0}
-							slidesPerView={3}
+							slidesPerView={2}
 							navigation
 							onSlideChange={() => console.log('slide change')}
 							onSwiper={swiper => console.log(swiper)}>
