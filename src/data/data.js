@@ -125,7 +125,6 @@ export const JavascriptPortfolio = [
 			'It has a responsive design, mobile first design. ',
 			'When clicking on a card, a modal opens showing more information about the country.',
 		],
-		techstack: '#HTML #CSSS #JAVSCRIPT',
 		img: countryRest,
 		stack: [
 			{ technology: html, alt: 'html', key: '1' },
