@@ -1,11 +1,25 @@
 import chatAppVue from '../assets/chatapp-vue.PNG';
 import tenderApp from '../assets/tenderapp.PNG';
 import countryRest from '../assets/countryREST.png';
-// import hangman from '../assets/hangman.PNG';
 import paperRockScissors from '../assets/paper-rock-scissors.PNG';
 import musicMap from '../assets/musicmap.PNG';
 import heroeApp from '../assets/heroapp.PNG';
 import calendar from '../assets/Calendar.PNG';
+
+import react from '../assets/stack/react.png';
+import node from '../assets/stack/nodejs.png';
+import jest from '../assets/stack/jest.png';
+import express from '../assets/stack/express.png';
+import mongodb from '../assets/stack/mongodb.png';
+import vue from '../assets/stack/vue.png';
+import ionic from '../assets/stack/ionic.png';
+import firebase from '../assets/stack/firebase.png';
+import redux from '../assets/stack/redux.png';
+import animationcss from '../assets/stack/animationcss.png';
+import mysql from '../assets/stack/mysql.png';
+import html from '../assets/stack/html.png';
+import css from '../assets/stack/css.png';
+import javascript from '../assets/stack/javascript.png';
 
 export const ReactPortfolio = [
 	{
@@ -19,7 +33,14 @@ export const ReactPortfolio = [
 			'Create your account or log in to add a note for your next event. A project built with react, with data persistence thanks to MongoDB.',
 			"The use of Redux facilitates the handling of the states among all the components. JWT keeps the user's session and the last view.",
 		],
-		techstack: '#React #ReactHooks #Redux #Jest #JWT #MongoDB #Node #Express',
+		stack: [
+			{ technology: react, alt: 'react', key: '1' },
+			{ technology: node, alt: 'node', key: '2' },
+			{ technology: express, alt: 'express', key: '3' },
+			{ technology: mongodb, alt: 'mongodb', key: '4' },
+			{ technology: jest, alt: 'jest', key: '5' },
+			{ technology: redux, alt: 'redux', key: '6' },
+		],
 	},
 	{
 		id: 2,
@@ -31,7 +52,11 @@ export const ReactPortfolio = [
 			'Log in and find your favorite hero. Build with React Hooks and React Router.',
 			'Tested with Jest.',
 		],
-		techstack: '#React #React Hooks #Jest #AnimationCSS #React Router',
+		stack: [
+			{ technology: react, alt: 'react', key: '1' },
+			{ technology: jest, alt: 'jest', key: '2' },
+			{ technology: animationcss, alt: 'animationcss', key: '3' },
+		],
 	},
 ];
 
@@ -47,7 +72,11 @@ export const VuePortfolio = [
 			'I took part in the development of several components, including the registration form, the view of your animals and the view of filtering animals. We used Firestore for the backend.',
 		],
 		img: tenderApp,
-		techstack: '#Vue3, #VueRouter #Vuex #Ionic #Capacitator #Firestore',
+		stack: [
+			{ technology: vue, alt: 'vue', key: '1' },
+			{ technology: ionic, alt: 'ionic', key: '2' },
+			{ technology: firebase, alt: 'firebase', key: '3' },
+		],
 	},
 	{
 		id: '2',
@@ -59,6 +88,7 @@ export const VuePortfolio = [
 			"The biggest challenge was knowing how to conditionally render either the teacher's message, the file uploaded by the student, or the student's message.",
 		],
 		img: chatAppVue,
+		stack: [{ technology: vue, alt: 'vue', key: '1' }],
 	},
 ];
 
@@ -73,8 +103,13 @@ export const NodejsExpress = [
 			'Music Map is the backend project for the bootcamp. Its main objective is to showcase the top 10 of the country that you clicked',
 			'It gets the data from the Spotify APi. The global top ten is also shown. I took part in the map view. We use leaflet to import it.',
 		],
-		techstack: '#Nodejs #Express #MVC #MongoDB #Passport #Ejs #MongoDB #MySql',
 		img: musicMap,
+		stack: [
+			{ technology: node, alt: 'node', key: '1' },
+			{ technology: express, alt: 'express', key: '2' },
+			{ technology: mongodb, alt: 'mongodb', key: '3' },
+			{ technology: mysql, alt: 'mysql', key: '4' },
+		],
 	},
 ];
 
@@ -92,6 +127,11 @@ export const JavascriptPortfolio = [
 		],
 		techstack: '#HTML #CSSS #JAVSCRIPT',
 		img: countryRest,
+		stack: [
+			{ technology: html, alt: 'html', key: '1' },
+			{ technology: css, alt: 'css', key: '2' },
+			{ technology: javascript, alt: 'javascript', key: '3' },
+		],
 	},
 	{
 		id: '2',
@@ -101,7 +141,11 @@ export const JavascriptPortfolio = [
 		description: [
 			'I created this app to practice Algorithmia. It consists of the well-known rock-paper-scissors game. Created with HTML, CSS and Vanilla Javascript.',
 		],
-		techstack: '#HTML #CSSS #JAVSCRIPT',
+		stack: [
+			{ technology: html, alt: 'html', key: '1' },
+			{ technology: css, alt: 'css', key: '2' },
+			{ technology: javascript, alt: 'javascript', key: '3' },
+		],
 
 		img: paperRockScissors,
 	},

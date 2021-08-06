@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import PortfolioList from './PortfolioList';
 import {
 	VuePortfolio,
@@ -6,6 +6,17 @@ import {
 	NodejsExpress,
 	ReactPortfolio,
 } from '../data/data';
+
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.scss';
+
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
+
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+
 const Portfolio = () => {
 	const [selected, setSelected] = useState('featured');
 	const [data, setData] = useState([]);
@@ -68,6 +79,25 @@ const Portfolio = () => {
 							<p>{d.techstack}</p>
 							<p>{d.skills}</p>
 						</div>
+
+						<Swiper
+							className='mt-3 mb-5'
+							spaceBetween={0}
+							slidesPerView={3}
+							navigation
+							onSlideChange={() => console.log('slide change')}
+							onSwiper={swiper => console.log(swiper)}>
+							{d.stack.map(stack => (
+								<SwiperSlide key={stack.key} className='slide'>
+									<img
+										src={stack.technology}
+										alt={stack.alt}
+										className='slide-content'
+									/>
+								</SwiperSlide>
+							))}
+						</Swiper>
+
 						<div className='item-links'>
 							<a
 								className='item-description-link'
