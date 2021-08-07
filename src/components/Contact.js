@@ -1,4 +1,4 @@
-import contact from '../assets/contact.jpg';
+import contact from '../assets/images/contact.jpg';
 import Swal from 'sweetalert2';
 import { useForm } from '../hooks/useForm';
 import validator from 'validator';

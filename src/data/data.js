@@ -1,10 +1,10 @@
-import chatAppVue from '../assets/chatapp-vue.PNG';
-import tenderApp from '../assets/tenderapp.PNG';
-import countryRest from '../assets/countryREST.png';
-import paperRockScissors from '../assets/paper-rock-scissors.PNG';
-import musicMap from '../assets/musicmap.PNG';
-import heroeApp from '../assets/heroapp.PNG';
-import calendar from '../assets/Calendar.PNG';
+import chatAppVue from '../assets/images/chatapp-vue.PNG';
+import tenderApp from '../assets/images/tenderapp.PNG';
+import countryRest from '../assets/images/countryREST.png';
+import paperRockScissors from '../assets/images/paper-rock-scissors.PNG';
+import musicMap from '../assets/images/musicmap.PNG';
+import heroeApp from '../assets/images/heroapp.PNG';
+import calendar from '../assets/images/Calendar.PNG';
 
 import react from '../assets/stack/react.png';
 import node from '../assets/stack/nodejs.png';
